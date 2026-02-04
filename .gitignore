@@ -35,7 +35,6 @@ venv.bak/
 !.env.example
 
 # --- PDF Processing & Temporary Files ---
-# Jos koodisi tallentaisi tiedostoja, nämä estäisivät niiden vuotamisen
 *.pdf
 *.md
 temp/
