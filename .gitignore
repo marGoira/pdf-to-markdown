@@ -1,0 +1,78 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Virtual Environments ---
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Environment Variables (IMPORTANT: Never push secrets) ---
+.env
+.flaskenv
+.env.*
+!.env.example
+
+# --- PDF Processing & Temporary Files ---
+# Jos koodisi tallentaisi tiedostoja, nämä estäisivät niiden vuotamisen
+*.pdf
+*.md
+temp/
+output/
+
+# --- Azure & Cloud / IDE ---
+.azure/
+.azurefunctions/
+.vscode/
+.idea/
+bin/
+obj/
+
+# --- Testing & Reports ---
+.target/
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# --- OS Specific ---
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
+
+# --- Docker ---
+.dockerignore
+data/
+
+# --- Logs ---
+pip-log.txt
+pip-delete-this-directory.txt
+*.log

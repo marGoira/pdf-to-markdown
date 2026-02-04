@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pymupdf>=1.23.0
+python-dotenv
+slowapi
