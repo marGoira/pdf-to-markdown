@@ -2,7 +2,7 @@ import os
 import logging
 import re
 import asyncio
-import time  # Added for the timer
+import time
 from concurrent.futures import ProcessPoolExecutor
 from dotenv import load_dotenv
 from fastapi import FastAPI, UploadFile, File, HTTPException, Request
